@@ -1,0 +1,7 @@
+ControlID,Description,Status
+1.1.1,Minimum Password Length,FAILED
+1.1.2,Password History,FAILED
+1.2.1,Account Lockout Threshold,FAILED
+9.1.1,Enable Domain Firewall,FAILED
+18.10.43,Enable Cloud Protection,WARNING
+1.1.3,Maximum Password Age,PASSED

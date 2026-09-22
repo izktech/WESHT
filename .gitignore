@@ -1,0 +1,20 @@
+# Datos generados en cada ejecución (no deben versionarse)
+Logs/*.log
+Reports/*.html
+Reports/*.csv
+Rollback/*.inf
+Rollback/*.bak
+
+# Mantener las carpetas en el repo aunque estén vacías
+!Logs/.gitkeep
+!Reports/.gitkeep
+!Rollback/.gitkeep
+
+# Archivos de Windows / editores
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Reportes reales de Wazuh que puedan contener datos de un entorno real
+*.wazuh.csv

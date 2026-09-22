@@ -1,0 +1,36 @@
+{
+    "1.1.1": {
+        "Module": "PasswordPolicy",
+        "Function": "Invoke-PasswordPolicyRemediation",
+        "Description": "Minimum Password Length",
+        "Severity": "High"
+    },
+
+    "1.1.2": {
+        "Module": "PasswordPolicy",
+        "Function": "Invoke-PasswordPolicyRemediation",
+        "Description": "Password History",
+        "Severity": "High"
+    },
+
+    "1.2.1": {
+        "Module": "AccountPolicy",
+        "Function": "Invoke-AccountPolicyRemediation",
+        "Description": "Account Lockout Threshold",
+        "Severity": "Medium"
+    },
+
+    "9.1.1": {
+        "Module": "Firewall",
+        "Function": "Invoke-FirewallRemediation",
+        "Description": "Enable Domain Firewall",
+        "Severity": "Critical"
+    },
+
+    "18.10.43": {
+        "Module": "Defender",
+        "Function": "Invoke-DefenderRemediation",
+        "Description": "Enable Cloud Protection",
+        "Severity": "Critical"
+    }
+}
